@@ -1,0 +1,225 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/**
+*Tag Base
+*/
+
+h1
+{
+    margin: 0;
+}
+
+nav .nav-wrapper
+{
+    padding: 0 100px;
+}
+
+div h5
+{
+    font-size: 20px;
+}
+
+footer div i
+{
+    font-size: 32px;
+    padding: 32px 32px 0 0;
+}
+
+footer div a
+{
+    color: white
+}
+
+
+/*Classe*/
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.green-1
+{
+    color:#7CFF83;
+}
+
+.green-2
+{
+    color: #36E83F;
+}
+
+.green-3
+{
+    color: #2DBE34;
+}
+
+.green-4
+{
+    color:#1E7F23;
+}
+
+.green-5
+{
+    color: #0B460E;
+}
+
+.bg-green-3
+{
+    background-color: #2DBE34 !important;
+}
+
+.bg-green-5
+{
+    background-color: #0B460E !important;
+}
+
+.btn-registrazione
+{
+    width: 100%;
+}
+
+
+.bg-footer
+{
+    margin: 0;
+    color: whitesmoke;
+}
+
+.bg-footer h2
+{
+    margin: 0;
+}
+
+.bg-footer h6
+{
+    margin-top: 3rem;
+}
+
+/*ID*/
+    
+#project img
+{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+
+
+#project div img
+{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+
+#project div img
+{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+#project div:nth-child(2) img
+{
+    width: 85%;
+    position: relative;
+    left: 5%;
+}
+
+#contact .col:nth-child(2)
+{
+    margin-top: 2%;
+}
+
+/*Media Query*/
+
+@media screen and (max-width:600px)
+{
+    
+    h2
+    {
+        text-align: center;
+    }
+    
+    nav .nav-wrapper
+    {
+        padding: 0;    
+    }
+    
+    nav .nav-wrapper h1
+    {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 24px;
+        height: 64px;
+    }
+    
+    nav .nav-wrapper h1 a
+    {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:320px)
+{
+    nav h1
+    {
+        position: relative;
+        left: -12%;
+    }
+    
+    #socials .row div:first-child h2
+    {
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #socials .row div:last-child h6
+    {
+        position: relative;
+        left: -98px;
+    }
+    
+    #socials .row div:first-child
+    {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    nav h1
+    {
+        position: relative;
+        left: -12%;
+    }
+    
+    #socials .row div:first-child h2
+    {
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #socials .row div:last-child h6
+    {
+        position: relative;
+        left: -98px;
+    }
+    
+    #socials .row div:first-child
+    {
+        margin-left: 25%;
+    }
+}
